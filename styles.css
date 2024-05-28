@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+
+    font-family: quicksand;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.content-container {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+.nav-list-item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+    list-style: none;
+}
+
+.portfolio-item {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+#body-section-container {
+    width: 100%;
+    height: 100%;
+}
+
+#header-section-container {
+    background-color: white;
+}
+
+#header-content-container {
+    flex-direction: row;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    font-size: large;
+}
+
+#nav-section-container {
+    margin-left: auto;
+}
+
+#nav-list {
+    display: flex;
+
+    padding: 0;
+}
+
+#main-content-container {
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio-section-container {
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio-content-container {
+    flex-direction: row;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-size: large;
+}
+
+#brand {
+    font-size: 5rem;
+}
+
+#bio-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headshot {
+    display: block;
+
+    width: 25rem;
+
+    border-radius: 50%;
+}
+
+#portfolio-section-container {
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio-content-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-size: large;
+}
+
+#footer-section-container {
+    margin-top: auto;
+}
+
+#footer-content-container {
+    align-items: center;
+}

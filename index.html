@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel = "stylesheet">
+        <link rel = "stylesheet" href = "styles.css">
         <title>
             Dallas Cooper
         </title>
     </head>
+
     <div class = "section-container" id = "body-section-container">
         <body>
             <div class = "content-container" id = "body-content-container">
+
                 <div class = "section-container" id = "header-section-container">
                     <header>
                         <div class = "content-container" id = "header-content-container">
-                            Dallas Cooper
+                            <div>Dallas Cooper</div>
                             <div class = "section-container" id = "nav-section-container">
                                 <nav>
                                     <div class = "content-container" id = "nav-content-container">
-                                        <ul>
-                                            <li>Home</li>
-                                            <li>About</li>
-                                            <li>Contact</li>
+                                        <ul id = "nav-list">
+                                            <li class = "nav-list-item"><a href= "index.html">Home</a></li>
+                                            <li class = "nav-list-item"><a href = "about.html">About</a></li>
+                                            <li class = "nav-list-item"><a href = "contact.html">Contact</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -26,20 +32,49 @@
                         </div>
                     </header>
                 </div>
+
                 <div class = "section-container" id = "main-section-container">
                     <main>
                         <div class = "content-container" id = "main-content-container">
-                            Content goes here.
+
+                            <div class = "section-container" id = "bio-section-container">
+                                <div id = "bio">
+                                    <div class = "content-container" id = bio-content-container>
+                                        <div id = "bio-text">
+                                            <h1 id = "brand">Dallas Cooper</h1>
+                                            <p>I'm a full stack developer based out of Ontario, Canada. I like making cool web apps.</p>
+                                        </div>
+                                        <div id = "bio-image">
+                                            <img id = "headshot" src = "headshot.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class = "section-container" id = "portfolio-section-container">
+                                <div id = "portfolio">
+                                    <div class = "content-container" id = "portfolio-content-container">
+                                        <h2>Here's some stuff I've worked on...</h2>
+                                        <div class = "portfolio-item">
+                                            <h3>Boggart Bot</h3>
+                                            <p>A Reddit bot. Check him out <a href = "https://www.reddit.com/user/boggart_bot/">here</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </main>
                 </div>
+
                 <div class = "section-container" id = "footer-section-container">
                     <footer>
                         <div class = "content-container" id = "footer-content-container">
-                            Created by Dallas Cooper
+                            <p>Dallas Cooper</p>
                         </div>
                     </footer>
                 </div>
+
             </div>
         </body>
     </div>
